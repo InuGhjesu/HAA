@@ -141,7 +141,3 @@
 
 
 </header>
-
-<?php  include 'header-mobile.php'; ?>
-
-<?php  include 'banner.php'; ?>

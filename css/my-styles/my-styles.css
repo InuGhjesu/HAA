@@ -651,6 +651,7 @@ body {
     margin-left: 100px;
   }
 }
+
 @media only screen and (max-width: 991px) {
   .resource {
     text-align: center;
@@ -752,6 +753,48 @@ body {
   .footer .row .col .footer-lists {
     margin-top: 50px;
   }
+}
+
+.testimonials {
+  margin-top: 250px;
+  margin-bottom: 500px;
+}
+.testimonials .my-container {
+  position: relative;
+}
+.testimonials .my-container .slider {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 88%;
+  height: 200px;
+  overflow: hidden;
+}
+.testimonials .my-container .slider .slider-inner {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 200%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  pointer-events: none;
+}
+.testimonials .my-container .slider .slider-inner .slide-img {
+  height: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 3rem;
+}
+.testimonials .my-container .slider .slider-inner .slide-img i {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.testimonials .my-container .slider .slider-inner .slide-img i:hover {
+  color: rgb(167, 11, 245);
 }
 
 /*# sourceMappingURL=my-styles.css.map */

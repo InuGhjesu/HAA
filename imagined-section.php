@@ -18,7 +18,7 @@
 
                     <a href="#" class="account">Open An Account</a>
                 </div>
-                <div class="col col-12 col-md-6">
+                <div class="col col-12 col-md-6"  data-aos="fade-right">
                     <img src="imagenes/img-001.png" alt="">
                 </div>
             </div>

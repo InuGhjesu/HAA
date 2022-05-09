@@ -13,10 +13,18 @@
   ?>
 
   <?php 
+    
+    include 'testimonials.php';
+
+  ?>
+
+  <?php 
 
     include 'resource.php';
 
   ?>
+
+  
 
 
 </main>
